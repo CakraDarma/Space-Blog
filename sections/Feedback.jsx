@@ -12,7 +12,7 @@ const Feedback = () => (
 			variants={staggerContainer}
 			initial='hidden'
 			whileInView='show'
-			viewport={{ once: false, amount: 0.25 }}
+			viewport={{ once: true, amount: 0.25 }}
 			className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-6`}
 		>
 			<motion.div
@@ -22,17 +22,18 @@ const Feedback = () => (
 				<div className='feedback-gradient' />
 				<div>
 					<h4 className='font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white'>
-						Samantha
+						Elon Musk
 					</h4>
 					<p className='mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white'>
-						Founder Metaverus
+						Founder SpaceX
 					</p>
 				</div>
 
 				<p className='mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white'>
-					“With the development of todays technology, metaverse is very useful
-					for todays work, or can be called web 3.0. by using metaverse you can
-					use it as anything”
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque fugit
+					ipsum, libero, alias fuga molestias vitae illum blanditiis enim
+					dignissimos praesentium ipsam numquam hic autem? Ipsam blanditiis
+					optio nemo dolorem amet quidem provident, impedit
 				</p>
 			</motion.div>
 
@@ -52,6 +53,7 @@ const Feedback = () => (
 					variants={zoomIn(0.4, 1)}
 					className='lg:block hidden absolute -left-[10%] top-[3%]'
 				>
+					<h1>kontol</h1>
 					<Image
 						width={999}
 						height={999}
