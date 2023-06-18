@@ -35,8 +35,8 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
 					<Image
 						src='/headset.svg'
 						alt='headset'
-						width={0}
-						height={0}
+						width={1110}
+						height={1110}
 						// fill
 						className='w-1/2 h-1/2 object-contain'
 					/>
